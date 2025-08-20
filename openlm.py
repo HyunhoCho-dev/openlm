@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = 'your-secret-key-here'  # 실제 운영시 변경 필요
 
 API_URL = "https://router.huggingface.co/v1/chat/completions"
-API_KEY = "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"
+API_KEY = "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"
 
 headers = {
     "Authorization": f"Bearer {API_KEY}",
